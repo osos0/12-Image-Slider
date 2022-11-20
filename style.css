@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: rgb(219, 185, 143);
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contaner {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("/media/1.jpg");
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+i {
+  font-size: 30px;
+  color: gray;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
