@@ -12,15 +12,28 @@ body {
   display: flex;
   flex-direction: row;
   width: 500px;
-  /* overflow: hidden; */
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+  position: absolute;
+}
+
+.active.contaner img {
   transform: translateX(-500px);
 }
 
 i {
-  font-size: 30px;
-  color: gray;
-  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  font-size: 50px;
+  color: rgb(50, 48, 48);
+  text-shadow: 0 4px 8px rgba(47, 46, 46, 0.9);
   cursor: pointer;
+}
+
+.fa-angles-left {
+  position: relative;
+  left: -195px;
+}
+.fa-angles-right {
+  position: relative;
+  left: 195px;
 }
