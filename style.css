@@ -19,7 +19,7 @@ body {
 }
 
 .active.contaner img {
-  transform: translateX(-500px);
+  /* transform: translateX(-500px); */
 }
 
 i {
