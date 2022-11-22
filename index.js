@@ -16,7 +16,7 @@ btnR.addEventListener("click", () => {
 });
 btnL.addEventListener("click", () => {
   num--;
-  imgEl[num].style.transform = `translateX(${num * 500}px)`;
+  imgEl[num].style.transform = `translateX(-${num * 500}px)`;
   // console.log(num);
 });
 
